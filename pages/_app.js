@@ -9,5 +9,6 @@ function MyApp({ Component, pageProps }) {
 export default withTina(MyApp, {
   enabled: true,
   sidebar: true,
+  toolbar: true,
   plugins: [MarkdownFieldPlugin],
 })
